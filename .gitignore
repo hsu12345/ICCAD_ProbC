@@ -1,0 +1,29 @@
+# Build / install artifacts
+solution/DREAMPlace/build/
+solution/DREAMPlace/install/
+
+# Nested git metadata (tracked as source tree, not submodule)
+solution/DREAMPlace/.git/
+solution/DREAMPlace/.git_bak/
+
+# Python
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+
+# GitHub file size limit (>100MB)
+**/ariane.spef
+**/cell_arcs.csv
+
+# Results / caches (regenerable)
+solution/results/
+*.log
+*.tmp
